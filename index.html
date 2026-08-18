@@ -1,11 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내 첫 번째 페이지</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="he">
+        <div class="text">
+          <div class="card">
+            <h1>안녕하세요!</h1>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="hover">
+          <a href="#intro">자기소개</a>
+          <a href="#interests">관심 분야</a>
+          <a href="#about">소개</a>
+          <a href="#lessons">교훈</a>
+          <a href="./goal.html">개발 목표</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article id="intro">
+        <div class="backup">
+          <img src="./images/profile.jpg" alt="프로필 이미지" />
+        </div>
+      </article>
+
+      <section>
+        <hr />
+        <article>
+          <table border="1">
+            <tr>
+              <th>이름</th>
+
+              <td>이선용</td>
+            </tr>
+            <tr>
+              <th>취미</th>
+              <td>맛있는 음식이랑 술마시기, 여행</td>
+            </tr>
+            <tr>
+              <th>관심분야</th>
+              <td>ai로 창업 및 개발</td>
+            </tr>
+            <tr>
+              <th>목표</th>
+              <td>수료후 내가 만든 서비스 출시</td>
+            </tr>
+          </table>
+          <section id="interests">
+            <h2>관심 분야</h2>
+            <ul>
+              <li>웹개발</li>
+              <li>창업</li>
+              <li>동물</li>
+            </ul>
+          </section>
+          <section id="about">
+            <h2>취미</h2>
+            <ul>
+              <li>여행</li>
+              <li>캠핑</li>
+              <li>강아지</li>
+            </ul>
+          </section>
+          <section id="lessons">
+            <h2>이러고 싶어요</h2>
+            <ul>
+              <li>오늘 일을 미루지 말자</li>
+              <li>후회하지 말자</li>
+              <li>재밌게 살자</li>
+            </ul>
+          </section>
+          <hr />
+
+          <div class="card">
+            <strong> 안녕하세요 앞으로 잘 부탁드려요 ! </strong>
+          </div>
+        </article>
+      </section>
+    </main>
+    <hr />
+
+    <a href="https://imweb.me" target="_blank">아임웹 메인 사이트 링크</a>
+    <p><a href="./goal.html">개발 목표 보기</a></p>
+    <form>
+      <div>
+        <label for="name">이름</label>
+        <br />
+        <input id="name" type="text" placeholder="이름을 입력하세요." />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">이메일</label>
+        <br />
+
+        <input id="email" type="email" placeholder="example@email.com" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="message">문의 내용</label>
+
+        <br />
+
+        <textarea
+          id="message"
+          placeholder="문의 내용을 입력해 주세요"
+        ></textarea>
+      </div>
+
+      <br />
+
+      <button type="submit">문의하기</button>
+    </form>
+
+    <div class="back">
+      <footer class="foot">Production date 2026.8.10</footer>
+    </div>
+  </body>
 </html>
